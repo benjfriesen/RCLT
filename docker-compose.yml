@@ -3,7 +3,7 @@ version: '3.8'
 services:
   cv-workspace:
     build: .
-    container_name: wood_cv_env
+    container_name: rclt
     ports:
       - "8888:8888"
       - "8080:8080"
