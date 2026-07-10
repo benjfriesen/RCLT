@@ -19,5 +19,5 @@ Board IDs handled in Microsoft Access .accdb `boardDB.accdb`
 
 
 
-## Training Model
-Probably going to use either tensorflow, pytorch, or scikit-learn
+## CV Model
+Initial CV Model built using Jupyter, Label Studio, and Ultralytics YOLO26
