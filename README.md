@@ -1,5 +1,6 @@
-# RCLT
-UBC Recycled CLT research project
+# RCLT (Recycled Cross-Laminated Timber)
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/dd4fec50-cb2d-4261-bc7f-192e6187ff10" />
 
 ## Introduction
 This repository encompasses my work as a research assistant under Dr. Julie Cool and Dr. Minghao Li working on a project to evalute the feasibility of using recycled (pre-stressed) wood in structural applications.
