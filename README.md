@@ -21,4 +21,4 @@ Board IDs handled in Microsoft Access .accdb `boardDB.accdb`
 
 
 ## CV Model
-Initial CV Model built using Jupyter, Label Studio, and Ultralytics YOLO26
+This is a later project that will be established after the database is setup
