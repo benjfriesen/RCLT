@@ -13,5 +13,11 @@ Board IDs handled in Microsoft Access .accdb `boardDB.accdb`
 
 *Photo path references relative to repository
 
+#### Relationship Map
+
+<img width="507" height="622" alt="image" src="https://github.com/user-attachments/assets/8ee99e76-2bc8-4500-94b0-252187e5fb91" />
+
+
+
 ## Training Model
 Probably going to use either tensorflow, pytorch, or scikit-learn
