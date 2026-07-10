@@ -2,7 +2,7 @@
 UBC Recycled CLT research project
 
 ## Introduction
-This repository encompasses my work as a research assistant under Dr. Julie Cool and Dr. Minghao Li working on a project to evalute the feasibility of using recycled (pre-stressed) wood in strucutural applications.
+This repository encompasses my work as a research assistant under Dr. Julie Cool and Dr. Minghao Li working on a project to evalute the feasibility of using recycled (pre-stressed) wood in structural applications.
 
 The primary goal of this study is to support the path to standardization and code compliance of reclaimed wood, by evaluating performance data and creating standardized testing protocols.
 
