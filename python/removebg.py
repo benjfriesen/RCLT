@@ -7,8 +7,8 @@ from PIL import Image
 
 # working directories
 base_dir = '/Users/bfrzn/git/RCLT/test'
-input_folder = os.path.join(base_dir, 'input')
-output_folder = os.path.join(base_dir, 'output')
+input_folder = os.path.join(base_dir, 'newin')
+output_folder = os.path.join(base_dir, 'newout')
 
 os.makedirs(output_folder, exist_ok=True)
 
