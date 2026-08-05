@@ -18,7 +18,7 @@ Board IDs handled in Microsoft Access .accdb `boardDB.accdb`
 
 <img width="507" height="622" alt="image" src="https://github.com/user-attachments/assets/8ee99e76-2bc8-4500-94b0-252187e5fb91" />
 
-
+## Background Removal & Batch Processing
 
 ## CV Model
 This is a later project that will be established after the database is setup
