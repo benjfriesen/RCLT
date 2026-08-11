@@ -1,6 +1,7 @@
-# RCLT (Recycled Cross-Laminated Timber)
+<img src="https://github.com/user-attachments/assets/dd4fec50-cb2d-4261-bc7f-192e6187ff10" align="center" alt="Department Logo" />
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/dd4fec50-cb2d-4261-bc7f-192e6187ff10" />
+# RCLT (Recycled Cross-Laminated Timber)
+![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/opencv-%23fff.svg?style=for-the-badge&logo=opencv&logoColor=black) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) 
 
 ## Introduction
 This repository encompasses my work as a research assistant under Dr. Julie Cool and Dr. Minghao Li, working on evaluting the feasibility of using recycled (pre-stressed) wood in structural applications.
@@ -52,6 +53,8 @@ REAL velocity
 ### Background Removal & Batch Processing
 To process the board photos (taken on a Sony A7Siii in a controlled environment), OpenCV and Rembg were used to isolate the subject from our makeshift photo studio.
 
-<img src="./assets/diagram.png" width="500" alt="Raw photo (A203)">
+<p align="center">
+<img src="./boards/raw/A120_0001.jpg" width=45% alt="Raw photo (A120)"> <img src="./boards/processed/A120_0001_Processed.jpg" width=45% alt="Processed photo (A120)">
+</p>
 
 Further processing for edge case scenarios where the script did not accurately isolate the subject was done in Adobe Photoshop 2026 using a variety of masking tools.
