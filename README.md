@@ -1,7 +1,7 @@
 <img src="https://github.com/user-attachments/assets/dd4fec50-cb2d-4261-bc7f-192e6187ff10" align="center" alt="Department Logo" />
 
 # RCLT (Recycled Cross-Laminated Timber)
-![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/opencv-%23fff.svg?style=for-the-badge&logo=opencv&logoColor=black) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) 
+![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/opencv-%23fff.svg?style=for-the-badge&logo=opencv&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) 
 
 ## Introduction
 This repository encompasses my work as a research assistant under Dr. Julie Cool and Dr. Minghao Li, working on evaluting the feasibility of using recycled (pre-stressed) wood in structural applications.
