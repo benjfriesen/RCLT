@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/dd4fec50-cb2d-4261-bc7f-192e6187ff10" width="350" align="right" alt="Department Logo" />
+<img src="https://github.com/user-attachments/assets/dd4fec50-cb2d-4261-bc7f-192e6187ff10" width="200" align="right" alt="Department Logo" />
 
 # RCLT (Recycled Cross-Laminated Timber)
 ![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/opencv-%23fff.svg?style=for-the-badge&logo=opencv&logoColor=black) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) 
