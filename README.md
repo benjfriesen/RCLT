@@ -47,14 +47,16 @@ REAL velocity
     boards ||--o{ moe : references
 ```
 
-
 ## CV Model
 
 ### Background Removal & Batch Processing
 To process the board photos (taken on a Sony A7Siii in a controlled environment), OpenCV and Rembg were used to isolate the subject from our makeshift photo studio.
 
-<p align="center">
-<img src="./boards/raw/A120_0001.jpg" width=45% alt="Raw photo (A120)"> <img src="./boards/processed/A120_0001_Processed.jpg" width=45% alt="Processed photo (A120)">
-</p>
+Raw photo (A120)
+<img src="./boards/raw/A120_0001.jpg" alt="Raw photo (A120)">
+
+Processed photo (A120)
+
+<img src="./boards/processed/A120_0001_Processed.jpg" alt="Processed photo (A120)">
 
 Further processing for edge case scenarios where the script did not accurately isolate the subject was done in Adobe Photoshop 2026 using a variety of masking tools.
