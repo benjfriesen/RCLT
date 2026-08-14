@@ -12,7 +12,7 @@ output_folder = os.path.join(base_dir, 'newout')
 
 os.makedirs(output_folder, exist_ok=True)
 
-# Use e-commerce model
+# use e-commerce model
 model_session = new_session("isnet-general-use")
 
 
@@ -27,30 +27,30 @@ def process_image(filename):
         return f"Skipped (already exists): {filename}"
 
     try:
-        # Isolate the main subject
+        # isolate the main subject
         input_image = Image.open(input_path)
         extracted_image = remove(input_image, session=model_session, post_process_mask=True)
 
-        # Convert PIL image to OpenCV format to access the Alpha channel mask
+        # convert PIL image to OpenCV format to access the Alpha channel mask
         cv_img = np.array(extracted_image)
         alpha_channel = cv_img[:, :, 3]
 
-        # Define horizontal kernel
+        # define horizontal kernel
         horizontal_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (150, 5))
 
-        # Run MORPH_OPEN to remove artifacts narrower than 150 pixels
+        # run MORPH_OPEN to remove artifacts narrower than 150 pixels
         clean_alpha = cv2.morphologyEx(alpha_channel, cv2.MORPH_OPEN, horizontal_kernel, iterations=2)
 
-        # Apply the cleaned mask back to the image
+        # apply the cleaned mask back to the image
         cv_img[:, :, 3] = clean_alpha
 
         extracted_image_clean = Image.fromarray(cv_img)
 
-        # Create a solid white background
+        # create a solid white background
         white_bg = Image.new("RGBA", extracted_image_clean.size, "WHITE")
         white_bg.paste(extracted_image_clean, (0, 0), extracted_image_clean)
 
-        # Convert to standard RGB
+        # convert to standard RGB
         final_image = white_bg.convert("RGB")
         final_image.save(output_path, "JPEG", quality=95)
 

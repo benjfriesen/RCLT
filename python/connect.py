@@ -11,7 +11,6 @@ connection = sqlite3.connect(db)
 # create a cursor
 cursor = connection.cursor()
 
-
 # execute query
 try:
     cursor.execute("SELECT * FROM boards")
