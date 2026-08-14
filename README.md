@@ -19,32 +19,40 @@ SQLite was chosen since it is natively supported in the Python Standard Library
 %%{init: {'theme': 'neutral'}}%%
 erDiagram
     boards {
-TEXT board_id PK
-TEXT species_name
-TEXT grade_name
+        TEXT board_id PK
+        TEXT species_name FK
+        TEXT grade_name FK
     }
     species {
-TEXT species_id PK
+        TEXT name PK
     }
     grades {
-TEXT grade_id PK
+        TEXT grade_name PK
+        TEXT description
     }
     impurities {
-TEXT board_id PK
-INTEGER nails
-INTEGER staples
-INTEGER connected_boards
-INTEGER screws
-INTEGER misc_fasteners
+        TEXT board_id PK, FK
+        INTEGER number_of_nails
+        INTEGER staples
+        INTEGER connected_boards
+        INTEGER screws
+        INTEGER misc_fasteners
     }
     moe {
-TEXT board_id PK
-REAL velocity
+        TEXT board_id PK, FK
+        REAL velocity
     }
-    species ||--o{ boards : references
-    boards ||--o{ impurities : references
-    grades ||--o{ boards : references
-    boards ||--o{ moe : references
+    cuts {
+        TEXT cut_id PK
+        TEXT board_id FK
+        INTEGER cut_number
+    }
+    %% Relationships
+    species ||--o{ boards : "species lookup"
+    grades ||--o{ boards : "grades lookup"
+    boards ||--o| impurities : "impurities per board"
+    boards ||--o| moe : "moe per board"
+    boards ||--o{ cuts : "samples per parent board"
 ```
 
 ## CV Model
