@@ -32,7 +32,7 @@ erDiagram
     }
     impurities {
         TEXT board_id PK, FK
-        INTEGER number_of_nails
+        INTEGER nails
         INTEGER staples
         INTEGER connected_boards
         INTEGER screws
