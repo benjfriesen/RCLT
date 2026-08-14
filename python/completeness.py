@@ -14,7 +14,7 @@ try:
     # reset completeness flags
     cursor.execute("UPDATE boards SET is_complete = 0;")
 
-    # check against full criteria
+    # check against full criteria (images, species, grade, velocity, impurities all exist for given board id)
     update_query = """
                    UPDATE boards
                    SET is_complete = 1
