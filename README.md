@@ -65,6 +65,6 @@ Raw photo (A120)
 
 Processed photo (A120)
 
-<img src="./boards/processed/A120_0001_Processed.jpg" alt="Processed photo (A120)">
+<img src="./boards/processed/A120_Front.jpg" alt="Processed photo (A120)">
 
 Further processing for edge case scenarios where the script did not accurately isolate the subject was done in Adobe Photoshop 2026 using a variety of masking tools.
