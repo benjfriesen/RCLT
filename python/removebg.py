@@ -6,9 +6,9 @@ from rembg import remove, new_session
 from PIL import Image
 
 # working directories
-base_dir = '/Users/bfrzn/git/RCLT/test'
-input_folder = os.path.join(base_dir, 'newin')
-output_folder = os.path.join(base_dir, 'newout')
+base_dir = '/Users/bfrzn/Pictures/cropped & cleaned'
+input_folder = os.path.join(base_dir, 'last')
+output_folder = os.path.join(base_dir, 'lastout')
 
 os.makedirs(output_folder, exist_ok=True)
 
